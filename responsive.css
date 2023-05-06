@@ -1,0 +1,22 @@
+/* Style for small screens */
+@media only screen and (max-width: 600px) {
+  /* Adjust the width of the input field and result field */
+  input[type="text"], #output {
+    width: 100%;
+  }
+  
+  /* Adjust the margin for the buttons */
+  button {
+    margin: 10px 0;
+  }
+  
+  /* Adjust the margin for the form */
+  form {
+    margin: 10px;
+  }
+  
+  /* Adjust the padding for the header and footer */
+  header, footer {
+    padding: 5px;
+  }
+}
